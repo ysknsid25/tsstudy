@@ -24,7 +24,10 @@ ls -s /usr/src/app/node_modules/typescript/bin/tsc
 
 ## 実行
 
+docker の中に入って行う。
+
 ```
+docker-compose exec node /bin/bash
 tsc Typescriptファイル
 node JSにコンパイルされたTSファイル
 ```
