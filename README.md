@@ -19,7 +19,7 @@ docker を止めると tsc コマンドが効かなくなるので、
 ```
 docker-compose exec node /bin/bash
 cd /usr/local/bin
-ls -s /usr/src/app/node_modules/typescript/bin/tsc
+ln -s /usr/src/app/node_modules/typescript/bin/tsc
 ```
 
 ## 実行
